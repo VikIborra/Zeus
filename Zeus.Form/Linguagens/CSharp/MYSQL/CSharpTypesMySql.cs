@@ -16,6 +16,8 @@
                     return "int" + (IsNullabe(aceitaNull) ? "?" : "");
                 case "tinyint":
                     return "short" + (IsNullabe(aceitaNull) ? "?" : "");
+                case "float":
+                    return "float" + (IsNullabe(aceitaNull) ? "?" : "");
                 case "datetime":
                     return "DateTime" + (IsNullabe(aceitaNull) ? "?" : "");
                 case "long":
